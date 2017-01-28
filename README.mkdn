@@ -1,4 +1,4 @@
-Local manifest addon for building UNOFFICIAL Cyanogenmod 13(.0) for the Kindle Fires
+Local manifest addon for building UNOFFICIAL CandySix ROM for the Kindle Fires
 
 Getting Started
 ---------------
@@ -11,9 +11,9 @@ Make a build directory:
 	cd Android (or the name  you chose)
 	
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the CandySix trees, use a command like this:
 
-   repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+   repo init -u git://github.com/CandyRoms/candy.git -b c6
     
     curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/alexander3244/android_local_manifest/local_manifest.xml
 

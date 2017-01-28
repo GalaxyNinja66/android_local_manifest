@@ -2,12 +2,16 @@
 
 <manifest>
   <!-- the common kernel -->
-  <project name="alexander3244/kernel_amazon_bowser-common" path="kernel/amazon/bowser-common" remote="github" revision="cm-13.0" />
+  <project name="alexander3244/kernel_amazon_bowser-common" path="kernel/amazon/bowser-common" remote="github" revision="3.0.72-mm" />
   <!-- device-specific files -->
-  <project name="alexander3244/android_device_amazon_omap4-common" path="device/amazon/omap4-common" remote="github" revision="cm-13.0" />
-  <project name="alexander3244/android_device_amazon_bowser-common" path="device/amazon/bowser-common" remote="github" revision="cm-13.0" />
-  <project name="alexander3244/android_device_amazon_tate" path="device/amazon/tate" remote="github" revision="cm-13.0" />
-  <project name="alexander3244/android_device_amazon_jem" path="device/amazon/jem" remote="github" revision="cm-13.0" />
+  <project name="alexander3244/android_device_amazon_omap4-common" path="device/amazon/omap4-common" remote="github" revision="c6" />
+  <project name="alexander3244/android_device_amazon_bowser-common" path="device/amazon/bowser-common" remote="github" revision="c6" />
+  <project name="alexander3244/android_device_amazon_tate" path="device/amazon/tate" remote="github" revision="c6" />
+  <project name="alexander3244/android_device_amazon_jem" path="device/amazon/jem" remote="github" revision="c6" />
   <!-- the proprietary vendor files -->
   <project name="alexander3244/proprietary_vendor_amazon" path="vendor/amazon"  remote="github" revision="cm-13.0" />
+  <!-- hardware -->
+  <project name="omnirom/android_hardware_ti_omap4" path="hardware/ti/omap4" remote="github" revision="android-6.0" />
+  <!-- specific build project suitable for CandySix on Kindle Fire HD -->
+  <project name="alexander3244/build-project-suitable-for-CandySix-on-Kindle-Fire-HD" path="build" remote="github" revision="c6" />
 </manifest>
