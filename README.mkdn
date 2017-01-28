@@ -11,9 +11,9 @@ Make a build directory:
 	cd Android (or the name  you chose)
 	
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the Bliss ROM trees, use a command like this:
 
-   repo init -u git://github.com/CyanogenMod/android.git -b bliss-mm
+   repo init -u git://github.com/BlissRoms/platform_manifest.git -b mm6.0
     
     curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/alexander3244/android_local_manifest/local_manifest.xml
 
