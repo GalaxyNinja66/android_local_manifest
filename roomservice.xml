@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <!-- unload kindle by removing some packages -->
+  <remove-project name="CyanogenMod/android_packages_apps_Browser" />
+  <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
+  <remove-project name="CyanogenMod/android_packages_apps_ExactCalculator" />
+  <remove-project name="CyanogenMod/android_packages_apps_Calendar" />
+  <remove-project name="CyanogenMod/android_packages_services_Mms" />
+</manifest>
